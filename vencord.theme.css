@@ -1,5 +1,5 @@
 /**
- * @name system24 | Aetheria Theme
+ * @name system24 | jai-theme Theme
  * @description A tui-style Discord theme for Omarchy Hyprland by Dizziee.
  * @author refact0r
  * @version 2.0.0
@@ -94,7 +94,7 @@ body {
 
 /* color options */
 :root {
-    --colors: on; /* off: discord default colors, on: aetheria custom colors */
+    --colors: on; /* off: discord default colors, on: jai-theme custom colors */
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */

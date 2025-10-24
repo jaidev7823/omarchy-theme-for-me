@@ -1,4 +1,4 @@
--- Aetheria Theme for Neovim
+-- jai-theme Theme for Neovim
 -- Inspired by Audio Waveform Omarchy colorscheme and Base16-Tarot color palette
 
 return {
@@ -21,7 +21,7 @@ return {
                     hex_A8D61F = '#A8D61F', -- Bright yellow-green
                     hex_8CB319 = '#8CB319', -- Muted yellow-green
 
-                    -- Accent colors (aetheria neon palette)
+                    -- Accent colors (jai-theme neon palette)
                     hex_9147a8 = '#9147a8', -- Dark purple
                     hex_E20342 = '#E20342', -- Bright red
                     hex_FF7F41 = '#FF7F41', -- Bright orange
@@ -41,7 +41,7 @@ return {
 
                 vim.o.termguicolors = true
                 vim.o.background = 'dark'
-                vim.g.colors_name = 'aetheria'
+                vim.g.colors_name = 'jai-theme'
 
                 local hl = vim.api.nvim_set_hl
 
