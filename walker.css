@@ -1,0 +1,32 @@
+@define-color selected-text #c8e967;
+@define-color text #11AEB3;
+@define-color base #0e091d;
+@define-color border #a60234;
+@define-color foreground #0e091d;
+@define-color background #0e091d;
+
+
+window {
+  /* keep default size, no background needed here */
+}
+
+window .box-wrapper {
+  background: @background; /* solid background */
+  color: @text;
+  border: 3px solid @border;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0 auto; /* center content if needed */
+}
+
+window .search-container,
+window .search {
+  background: @hover; /* solid background for search */
+  color: @foreground;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
